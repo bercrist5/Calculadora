@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    height: 78.5vh;
+    background: linear-gradient(
+        to bottom,
+        #f9544c 50%,
+        #090c31 50%
+    );
+    font-family: 'Roboto', sans-serif;
+  
+}
+
+
+.container {
+    margin: auto;
+    margin-top: 10%;
+    width: 230px;
+    border-radius: 10px;
+    background-color:  #090c31ec;
+}
+
+.txtCalculo{
+     width: 200px;
+     margin-left:13px;
+     margin-top: 20px;
+     height: 50px;
+     border-radius: 20px;
+     border: none;
+     text-align: right;
+     font-size: 30px;
+     background-color: #090c31f5;
+     color: rgb(255, 255, 255);
+ }
+
+
+.botones{
+    padding: 20px 10px 10px 10px;
+    width: 100%;
+    
+}
+
+.botones .btns:hover{
+    box-shadow: inset 0px 0px 11px 11px #ffffff49;;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.botones .delete:hover{
+    box-shadow: inset 0px 0px 11px 11px #ffffff49;;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.botones .clear:hover{
+    box-shadow: inset 0px 0px 11px 11px #090c31;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.botones .btnigual:hover{
+    box-shadow: inset 0px 0px 11px 11px #090c31;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.botones .btns, .delete {
+    color: white;
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    box-shadow: inset 0px 0px 11px 2px rgba(0,0,0,0.20);
+    background-color:   #090c31;
+}
+
+.botones .btnigual{
+
+    width: 98px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    background-color:  #f9544c;
+    color: white;
+    border: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    box-shadow: inset 0px 0px 11px 2px rgba(0,0,0,0.20);
+    
+}
+
+.botones .clear{
+
+    width: 98px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    background-color:  #f9544c;
+    color: white;
+    border: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    box-shadow: inset 0px 0px 11px 2px rgba(0,0,0,0.20);
+    
+}
